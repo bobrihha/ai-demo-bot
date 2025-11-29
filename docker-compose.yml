@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  aibot:
+    build: .
+    container_name: aibot_demo
+    restart: always
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./users.json:/app/users.json
+      - ./knowledge.json:/app/knowledge.json
+      - ./.env:/app/.env
+    environment:
+      - PYTHONUNBUFFERED=1
