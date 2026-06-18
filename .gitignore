@@ -2,3 +2,16 @@
 __pycache__/
 *.pyc
 .DS_Store
+.env.*
+*.key
+*.pem
+*credentials*.json
+service_account.json
+secret.key
+*.db
+*.sqlite
+*.sqlite3
+.venv/
+venv/
+node_modules/
+*.log
