@@ -15,3 +15,6 @@ secret.key
 venv/
 node_modules/
 *.log
+!.env.example
+!.env.sample
+!.env.template
